@@ -2,31 +2,58 @@
   text-align: center;
 }
 
+.svg-container {
+  display: block;
+  width: 80vw;
+  margin: auto;
+  border: 2px solid #999;
+}
+
+.selected {
+  fill-opacity: 0.9;
+}
+
+.not-selected {
+  opacity: 1.0;
+}
+
 .five-boroughs {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.active-stroke {
+  stroke: #fff;
+  stroke-width: 4px;
+  -webkit-animation: pulsate 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: pulsate 3s ease-out;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation: pulsate 3s ease-out;
+  -ms-animation-iteration-count: infinite;
+  animation: pulsate 3s ease-out;
+  animation-iteration-count: infinite;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+@-webkit-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
 }
 
-.App-title {
-  font-size: 1.5em;
+@-moz-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
 }
 
-.App-intro {
-  font-size: large;
+@-ms-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
 }
