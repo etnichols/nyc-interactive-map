@@ -2,11 +2,28 @@
   text-align: center;
 }
 
+.container-fluid {
+  padding-top: 65px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
 .svg-container {
   display: block;
-  width: 80vw;
-  margin: auto;
+  width: 100%;
+  max-width: 600px;
   border: 2px solid #999;
+  margin: auto;
+}
+
+.borough-info-box {
+  max-width: 600px;
+  max-height: 200px;
+  min-height: 100px;
+  margin: auto;
+  background-color: #d2e4f2;
 }
 
 .selected {
@@ -40,6 +57,13 @@
   -ms-animation-iteration-count: infinite;
   animation: pulsate 2s ease-out;
   animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 768px){
+  .svg-container {
+    width: 100%;
+
+  }
 }
 
 @-webkit-keyframes pulsate {

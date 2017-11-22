@@ -1,19 +1,33 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import FiveBoroughs from './FiveBoroughs';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 
+import FiveBoroughs from "./components/FiveBoroughs"
+import Manhattan from "./components/Manhattan"
+import Nav from "./components/Nav"
+
+import './App.css'
+
+const Home = () => (
+  <p>Home</p>
+)
 
 class App extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <h2>5 Boroughs + NYC Neighborhoods</h2>
-        <div className="row">
-        <FiveBoroughs/>
+    <Router>
+      <div>
+        <Nav/>
+        <div className="container-fluid">
+        <Route exact path="/" component={Home}/>
+        <Route path="/five-boroughs" component={FiveBoroughs}/>
+        <Route path="/manhattan" component={Manhattan}/>
         </div>
       </div>
-    );
+    </Router>);
   }
 }
 
