@@ -3,11 +3,13 @@
 Made with React, Bootstrap and some other goodies.
 
 #### Backlog
-- Add Typography JS
+- ~~Add Typography JS~~
 - Create NYC Neighborhood SVG
   - Add to project
 - Componentize stuff
+  - ~~Componentized InfoBox~~
 - Add Data sources display information
+  - What information do I want to display?
 - Think about animations
 
 ---

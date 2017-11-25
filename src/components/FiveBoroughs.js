@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import InfoBox from './InfoBox'
 
+import SVG from '../5bb_exploded.svg'
+
 import "../App.css";
 
 class FiveBoroughs extends Component {
@@ -40,6 +42,7 @@ class FiveBoroughs extends Component {
     const { selection } = this.state
     return (
       <div>
+        <img src={SVG} />
         <h1 className="text-center">The 5 Boroughs of New York City</h1>
         <InfoBox selection={selection}/>
         <svg className="svg-container" id="five_boroughs" viewBox="0 0 1009.6 998.3">
