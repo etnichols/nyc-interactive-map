@@ -5,7 +5,8 @@ class Manhattan extends Component {
   render() {
     return (
       <div>
-        <p>Manhattan, bitches!</p>
+        <h1 className="text-center">The Neighborhoods of Manhattan</h1>
+        <p>Will be here, sometime soon.</p>
       </div>
     )
   }

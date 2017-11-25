@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+
+import InfoBox from './InfoBox'
+
 import "../App.css";
 
 class FiveBoroughs extends Component {
@@ -38,9 +41,7 @@ class FiveBoroughs extends Component {
     return (
       <div>
         <h1 className="text-center">The 5 Boroughs of New York City</h1>
-        <div className="borough-info-box">
-          <p>Cool facts about this {this.state.selection}!</p>
-        </div>
+        <InfoBox selection={selection}/>
         <svg className="svg-container" id="five_boroughs" viewBox="0 0 1009.6 998.3">
         <g id="New_Jersey" className="not-selected">
       <path id="NJ2"

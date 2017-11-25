@@ -8,7 +8,7 @@ class Nav extends Component {
     return (
       <header>
         <nav className="fixed-top navbar navbar-expand-sm navbar-light bg-light">
-          <h1 className="navbar-brand"><Link to="/">5 Boroughs + NYC Neighborhoods Map</Link></h1>
+          <Link className="navbar-brand site-title" to="/">5 Boroughs + NYC Neighborhoods Maps</Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,18 +16,20 @@ class Nav extends Component {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item">
                 <span className="navbar-text">
-                  <Link to="/five-boroughs">Five Boroughs</Link>
+                  <Link className="nav-link-text" to="/">Home</Link>
                 </span>
               </li>
               <li className="nav-item">
                 <span className="navbar-text">
-                  <Link to="/manhattan">Manhattan</Link>
+                  <Link className="nav-link-text" to="/five-boroughs">5 Boroughs</Link>
+                </span>
+              </li>
+              <li className="nav-item">
+                <span className="navbar-text">
+                  <Link className="nav-link-text" to="/manhattan">Manhattan</Link>
                 </span>
               </li>
             </ul>
-            <span className="navbar-text">
-              Made with &#9825;
-            </span>
           </div>
         </nav>
       </header>

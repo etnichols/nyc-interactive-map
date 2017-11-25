@@ -5,17 +5,20 @@ import {
   Link
 } from 'react-router-dom'
 
-import FiveBoroughs from "./components/FiveBoroughs"
-import Manhattan from "./components/Manhattan"
-import Nav from "./components/Nav"
+import FiveBoroughs from './components/FiveBoroughs'
+import Manhattan from './components/Manhattan'
+import Nav from './components/Nav'
+import Home from './components/Home'
 
 import './App.css'
 
-const Home = () => (
-  <p>Home</p>
-)
+import typography from './utils/typography'
 
 class App extends Component {
+  componentWillMount(){
+    typography.injectStyles();
+  }
+
   render() {
     return (
     <Router>
