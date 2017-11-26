@@ -10,7 +10,11 @@ Made with React, Bootstrap and some other goodies.
   - ~~Componentized InfoBox~~
 - Add Data sources display information
   - What information do I want to display?
+    - Population
+    - Population density
+    - Avg. income
 - Think about animations
+- Flexbox tutorial: how do I center my NYC Boroughs
 
 ---
 

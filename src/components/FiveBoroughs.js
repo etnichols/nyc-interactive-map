@@ -52,7 +52,7 @@ class FiveBoroughs extends Component {
     return (
       <div>
         <img className="text-center five-boroughs-exploded" src={FiveBoroughsSvg} />
-        <h1 className="component-title text-center">The Five Boroughs of NYC</h1>
+        <h1 className="component-title text-center">The Five Boroughs</h1>
         <br/>
         <div className="svg-container-component">
                   {selection.length > 0 &&
