@@ -3,13 +3,25 @@
 }
 
 .component-container {
-  padding-top: 40px;
+  padding-top: 60px;
   margin: auto;
   max-width: 600px;
+  padding-bottom: 40px;
+}
+
+.component-title {
+  margin-bottom: 0px;
+}
+
+.five-boroughs-exploded {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  max-width: 200px;
 }
 
 .container-fluid {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 
 .site-title {
@@ -33,8 +45,19 @@ a:active {
   margin: 10px;
 }
 
+.svg-container-component {
+  position: relative;
+  z-index: 1;
+}
+/*
+<div style="position: relative; z-index: 1;">
+  <img src="image.png" style="position: absolute; z-index: 2;" />
+  <span id="overlay_text" style="position: relative; top: -10px; z-index: 3;">OVERLAY</span>
+</div>*/
+
 .svg-container {
-  display: block;
+  position: absolute;
+  z-index: 2;
   width: 100%;
   max-width: 600px;
   border: 2px solid #999;
@@ -42,11 +65,14 @@ a:active {
 }
 
 .borough-info-box {
+  position: absolute;
+  z-index: 3;
   max-width: 600px;
-  max-height: 200px;
+  max-height: 300px;
   min-height: 100px;
-  margin: 10px auto 10px auto;
-  background-color: #d2e4f2;
+  margin: 5px auto 5px auto;
+  font-size: 12px;
+  line-height: normal;
 }
 
 .borough-info-box-title {
@@ -55,10 +81,10 @@ a:active {
   padding-top: 10px;
 }
 
-.borough-info-box-text {
+/*.borough-info-box-text {
   padding: 5px;
-  font-size: 16px;
-}
+  font-size: 14px;
+}*/
 
 .selected {
   fill-opacity: 0.5;
@@ -80,9 +106,9 @@ a:active {
 }
 
 .active-place {
-  stroke: #FF2100;
+  stroke: #f26101;
   stroke-width: 3;
-  fill: #FF2100;
+  fill: #f26101;
   -webkit-animation: pulsate 2s ease-out;
   -webkit-animation-iteration-count: infinite;
   -moz-animation: pulsate 2s ease-out;

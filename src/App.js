@@ -14,7 +14,17 @@ import './App.css'
 
 import typography from './utils/typography'
 
+// temporary
+const generateInfoBox = () => {
+  return {
+    population: Math.random(40000000),
+    avg_income: Math.random(300000),
+    pop_density: Math.random(2324),
+  }
+}
+
 class App extends Component {
+
   componentWillMount(){
     typography.injectStyles();
   }
