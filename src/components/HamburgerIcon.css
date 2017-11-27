@@ -1,7 +1,7 @@
 .hamburger-container {
   display: inline-block;
   float: left;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .bar1, .bar2, .bar3 {

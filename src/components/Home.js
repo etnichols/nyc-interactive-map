@@ -12,10 +12,12 @@ class Home extends Component {
   render(){
       return (
         <div className="component-container">
-          <p>What is this?</p>
-          <p>Interactive maps of the Five Boroughs of New York City and neighborhoods of Manhattan. Created with React, react-router, and some other cool tools.</p>
-          <p>Why?</p>
-          <p>Because I couldn't find anything like it when I google searched for these, and I thought it would be a fun way to practice SVG animation and work on user experience design. I want to make the presentation the selling point. Smooth interaction.</p>
+          <h3>What is this?</h3>
+          <p>This app contains interactive maps of New York City's Five Boroughs and the neighborhoods of Manhattan.</p>
+          <h3>Why?</h3>
+          <p>For a fun and easy way to understand the layout of the city. Practice with creating interactive SVGs, animations using Javascript and CSS.</p>
+          <h3>There's an bug or I have a suggestion to make this better.</h3>
+          <p>Email me at evantnichols@gmail.com. I'd love to hear from you.</p>
         </div>
       )
     }

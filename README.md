@@ -15,6 +15,7 @@ Made with React, Bootstrap and some other goodies.
     - Avg. income
 - Think about animations
 - Flexbox tutorial: how do I center my NYC Boroughs
+- Make a header component
 
 ---
 

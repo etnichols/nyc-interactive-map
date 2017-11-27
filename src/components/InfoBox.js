@@ -6,11 +6,6 @@ class InfoBox extends Component {
     return (
       <div className="borough-info-box">
         <h3 className="borough-info-box-title">{this.props.selection}</h3>
-        <ul>
-          <li>Population:  {this.props.info.population}</li>
-          <li>Pop density: {this.props.info.pop_density}</li>
-          <li>Avg. Income: {this.props.info.avg_income}</li>
-        </ul>
       </div>
     )
   }
