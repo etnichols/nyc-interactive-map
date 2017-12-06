@@ -25,7 +25,7 @@ render(){
   return (
     <div>
     <header>
-      <h1>NYC Maps</h1>
+      <h1 className="text-center">NYC Maps</h1>
     </header>
     <nav>
       <div onClick={this.toggleMenu.bind(this)} className="handle">

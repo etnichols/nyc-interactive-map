@@ -12,11 +12,11 @@ class Home extends Component {
   render(){
       return (
         <div className="component-container">
-          <h3>What is this?</h3>
+          <h4>What is this?</h4>
           <p>This app contains interactive maps of New York City's Five Boroughs and the neighborhoods of Manhattan.</p>
-          <h3>Why?</h3>
+          <h4>Why?</h4>
           <p>For a fun and easy way to understand the layout of the city. Practice with creating interactive SVGs, animations using Javascript and CSS.</p>
-          <h3>There's an bug or I have a suggestion to make this better.</h3>
+          <h4>There's an bug or I have a suggestion to make this better.</h4>
           <p>Email me at evantnichols@gmail.com. I'd love to hear from you.</p>
         </div>
       )
