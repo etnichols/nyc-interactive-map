@@ -14,8 +14,10 @@ Made with React, Bootstrap and some other goodies.
     - Population density
     - Avg. income
 - Think about animations
-- Flexbox tutorial: how do I center my NYC Boroughs
+  - Could use D3....
+- ~~Flexbox tutorial: how do I center my NYC Boroughs~~
 - Make a header component
+- Better way to deal with SVG width and height rather than hardcoding
 
 ---
 

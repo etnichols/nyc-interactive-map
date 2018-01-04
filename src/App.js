@@ -25,6 +25,21 @@ const generateInfoBox = () => {
 
 class App extends Component {
 
+  constructor(props){
+    super(props)
+    this.onHover = this.onHover.bind(this)
+    this.state = {
+      hover : "none"
+    }
+  }
+
+  onHover(e){
+    console.log("onHover function")
+    // this.setState({
+    //   hover: 'something'
+    // })
+  }
+
   componentWillMount(){
     typography.injectStyles();
   }
@@ -35,9 +50,17 @@ class App extends Component {
       <div>
         <Nav/>
         <div className="container-fluid">
-        <Route exact path="/" component={Home}/>
-        <Route path="/five-boroughs" component={FiveBoroughs}/>
-        <Route path="/manhattan" component={Manhattan}/>
+        <Route
+          exact path="/"
+          component={Home}/>
+        <Route
+          path="/five-boroughs" component={FiveBoroughs}/>
+        <Route
+          path="/manhattan" component={() => <Manhattan
+            onHover={this.onHover}
+            hoverElement={this.state.hover}
+            something="foo"
+          />} />
         </div>
       </div>
     </Router>);
