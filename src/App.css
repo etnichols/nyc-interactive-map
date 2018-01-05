@@ -26,6 +26,8 @@ a:hover {
 nav {
     background-color: #f26101;
     align-content: center;
+    padding-top: 5px;
+    width: 100%;
 }
 
 nav ul {
@@ -39,17 +41,29 @@ nav ul {
   -moz-transition: max-height 0.4s;
   -o-transition: max-height 0.4s;
   transition: max-height 0.4s;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
 }
 
 nav ul li {
-  display: inline-block;
   color: #fff;
-  padding: 15px 15px 0px 15px;
+  padding: 0px 15px 0px 15px;
   margin-bottom: 15px;
+  display: inline-block;
 }
 
 nav ul li a {
   text-decoration: none;
+}
+
+.site-title {
+  font-family: 'Work Sans', 'sans-serif';
+  font-weight: 700;
+  font-size: 1.7em;
+  display: inline-block;
+  margin: 10px;
+  color: white;
 }
 
 .handle {
@@ -57,7 +71,8 @@ nav ul li a {
   background-color: #f26101;
   text-align: left;
   box-sizing: border-box;
-  padding: 15px 10px;
+  padding: 5px;
+  margin-top: 1px;
   cursor: pointer;
   color: white;
   display: none;
@@ -81,23 +96,24 @@ nav ul li a {
   nav ul li {
     box-sizing: border-box;
     width: 100%;
-    padding: 15px;
-    text-align: left;
+    padding: 10px;
+    text-align: right;
     margin-bottom: 0px;
+    margin-left: 10px;
   }
 
   .handle {
-    display: inline-block;
+    display: inline;
   }
 
   .svg-container {
     width: 100%;
   }
-}
+} /* end media */
 
 .nav-item {
   text-decoration: none;
-  color: #fff;
+  color: #f0f0f0;
   text-shadow: none;
   background-image: none;
 }
@@ -158,17 +174,8 @@ nav ul li a {
   margin-bottom: 0px;
 }
 
-.selected {
-  fill-opacity: 0.5;
-  fill: #ff2100;
-}
-
 .draggable {
   cursor: move;
-}
-
-.not-selected {
-   fill: #fff;
 }
 
 .water {

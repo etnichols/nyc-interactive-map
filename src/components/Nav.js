@@ -24,22 +24,20 @@ render(){
 
   return (
     <div>
-    <header>
-      <h1 className="text-center">NYC Maps</h1>
-    </header>
     <nav>
+      <p className="site-title">NYC Maps</p>
       <div onClick={this.toggleMenu.bind(this)} className="handle">
         <HamburgerIcon isHamburger={!this.state.displayMenu}/>
       </div>
       <ul className={this.state.displayMenu ? "showing" : ""}>
         <li>
-          <Link className="nav-item" to="/">Home</Link>
+          <Link className="nav-item" to="/">Manhattan</Link>
         </li>
         <li>
           <Link className="nav-item" to="/five-boroughs">Five Boroughs</Link>
         </li>
         <li>
-          <Link className="nav-item" to="/manhattan">Manhattan</Link>
+          <Link className="nav-item" to="/about">About</Link>
         </li>
       </ul>
     </nav>

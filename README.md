@@ -4,8 +4,8 @@ Made with React, Bootstrap and some other goodies.
 
 #### Backlog
 - ~~Add Typography JS~~
-- Create NYC Neighborhood SVG
-  - Add to project
+- ~~Create NYC Neighborhood SVG~~
+  - ~~Add to project~~
 - Componentize stuff
   - ~~Componentized InfoBox~~
 - Add Data sources display information
@@ -13,11 +13,20 @@ Made with React, Bootstrap and some other goodies.
     - Population
     - Population density
     - Avg. income
-- Think about animations
-  - Could use D3....
+    - Restaurants/Cool Places to check out in this area
+- ~~Think about animations~~
+  - ~~Could use d3...~~
+    - Used d3
 - ~~Flexbox tutorial: how do I center my NYC Boroughs~~
 - Make a header component
 - Better way to deal with SVG width and height rather than hardcoding
+  - Python script to the rescue!
+  - Finish injection
+- Clean stuff up
+- CSS Styling and animation transitions
+- Highlighting/OnClick styles for Manhattan map
+- InfoBox needs to scroll and stay on mobile screen
+- Stroke CSS on selected path element - update python script
 
 ---
 

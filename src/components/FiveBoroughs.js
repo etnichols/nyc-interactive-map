@@ -3,13 +3,8 @@ import * as d3 from 'd3'
 
 import InfoBox from './InfoBox'
 import { Transition } from 'react-transition-group'
-import FiveBoroughsSvg from '../5bb_exploded.svg'
 
 import "../App.css";
-          //
-          // <svg style={{border: "1px solid black"}} width="100" height="100" viewBox="0 0 100 100">
-          //   <rect x="10" y="10" width="20" height="20" fill="blue"></rect>
-          // </svg>
 
 class FiveBoroughs extends Component {
   constructor(props){
@@ -114,7 +109,7 @@ centroidTest(el){
         <div className="text-center">
           <h1>The Five Boroughs of NYC</h1>
           {selection.length > 0 &&
-            <InfoBox info={this.generateInfoBox()} selection={selection}/>
+            <InfoBox selection={selection}/>
           }
         <svg className="svg-container" id="five_boroughs" viewBox="0 0 1009.6 998.3">
         <g id="the_map">

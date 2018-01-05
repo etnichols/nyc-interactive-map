@@ -8,7 +8,7 @@ import {
 import FiveBoroughs from './components/FiveBoroughs'
 import Manhattan from './components/Manhattan'
 import Nav from './components/Nav'
-import Home from './components/Home'
+import About from './components/About'
 
 import './App.css'
 
@@ -50,17 +50,9 @@ class App extends Component {
       <div>
         <Nav/>
         <div className="container-fluid">
-        <Route
-          exact path="/"
-          component={Home}/>
-        <Route
-          path="/five-boroughs" component={FiveBoroughs}/>
-        <Route
-          path="/manhattan" component={() => <Manhattan
-            onHover={this.onHover}
-            hoverElement={this.state.hover}
-            something="foo"
-          />} />
+        <Route exact path="/" component={Manhattan} />
+        <Route path="/about" component={About}/>
+        <Route path="/five-boroughs" component={FiveBoroughs}/>
         </div>
       </div>
     </Router>);
