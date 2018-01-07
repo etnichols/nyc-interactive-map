@@ -1,0 +1,21 @@
+.borough-info-box {
+  z-index: 3;
+  position: absolute;
+  margin: 10px;
+  max-width: 600px;
+  min-width: 120px;
+  max-height: 300px;
+  font-size: 12px;
+  line-height: normal;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  display: inline-block;
+}
+
+.borough-info-box-title {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 0px;
+}

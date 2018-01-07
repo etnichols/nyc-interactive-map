@@ -10,7 +10,7 @@ import Manhattan from './components/Manhattan'
 import Nav from './components/Nav'
 import About from './components/About'
 
-import './App.css'
+import './css/App.css'
 
 import typography from './utils/typography'
 
@@ -27,17 +27,9 @@ class App extends Component {
 
   constructor(props){
     super(props)
-    this.onHover = this.onHover.bind(this)
     this.state = {
       hover : "none"
     }
-  }
-
-  onHover(e){
-    console.log("onHover function")
-    // this.setState({
-    //   hover: 'something'
-    // })
   }
 
   componentWillMount(){
@@ -49,11 +41,9 @@ class App extends Component {
     <Router>
       <div>
         <Nav/>
-        <div className="container-fluid">
         <Route exact path="/" component={Manhattan} />
         <Route path="/about" component={About}/>
         <Route path="/five-boroughs" component={FiveBoroughs}/>
-        </div>
       </div>
     </Router>);
   }

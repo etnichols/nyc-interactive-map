@@ -4,8 +4,6 @@ import * as d3 from 'd3'
 import InfoBox from './InfoBox'
 import { Transition } from 'react-transition-group'
 
-import "../App.css";
-
 class FiveBoroughs extends Component {
   constructor(props){
     super(props);

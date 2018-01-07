@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import InfoBox from './InfoBox'
-import '../App.css';
-import './manhattan-style.css'
+import '../css/Manhattan.css'
 
 import * as d3 from 'd3'
 
@@ -79,21 +78,12 @@ class Manhattan extends Component {
     d3.select('#the_map').transition().duration(750).attr('transform', '')
   }
 
-  // temporary
-  generateInfoBox = () => {
-    return {
-      population: Math.floor(Math.random()*1000),
-      avg_income: Math.floor(Math.random()*1000),
-      pop_density: Math.floor(Math.random()*1000),
-    }
-  }
-
   render() {
     const selection = this.state.selection
     return (
       <div className="text-center">
         {selection.length > 0 &&
-          <InfoBox info={this.generateInfoBox()} selection={selection}/>
+          <InfoBox selection={selection}/>
         }
 <svg id="Layer_1" className="manhattan-svg-container" ref={node => this.node = node} viewBox="0 0 787 1756">
 <g id="the_map">

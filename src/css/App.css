@@ -1,0 +1,107 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  height: 100%;
+}
+
+header h1 {
+  margin: 20px 0px 20px 20px;
+}
+
+p {
+  font-family: 'Quattrocento', serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #F2D1B3;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #f0f0f0;
+  text-shadow: none;
+  background-image: none;
+}
+
+.container-fluid {
+  padding-bottom: 40px;
+}
+
+.component-container {
+  margin: 10px;
+  max-width: 600px;
+  padding-bottom: 40px;
+}
+
+.svg-container-component {
+  margin: 20px auto;
+  position: relative;
+  z-index: 1;
+}
+
+.svg-container {
+  z-index: 2;
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #999;
+  margin: auto;
+}
+
+.draggable {
+  cursor: move;
+}
+
+.water {
+  fill: #5477A4;
+}
+
+.non-active-place {
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1;
+}
+
+.active-place {
+  stroke: #f26101;
+  stroke-width: 3;
+  fill: #f26101;
+  -webkit-animation: pulsate 2s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: pulsate 2s ease-out;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation: pulsate 2s ease-out;
+  -ms-animation-iteration-count: infinite;
+  animation: pulsate 2s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
+}
+
+@-moz-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
+}
+
+@-ms-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
+}
+
+@keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 3; }
+  50%   { stroke-opacity:1.0; stroke-width: 5; }
+  100%  { stroke-opacity:0.4; stroke-width: 3; }
+}
