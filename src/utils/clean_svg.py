@@ -22,21 +22,19 @@ def clean_tag_id(str):
 def clean_tag(tag):
     # tag = tag.replace("class", "className")
     # if it doesn't have an id, no updates necessary, return
-    if "id=" not in tag:
+    if "<g" not in tag:
         return tag
     # ok so let's grab the matches
     matches=re.findall(r'\"(.+?)\"',tag)
     tag_id = matches[0]
-    formatted_tag_id = clean_tag_id(tag_id)
+    class_name = "" if "class=" not in tag else matches[1]
 
     # test injection
-    injection = "\n onClick={this.onClickHandle(\"" + tag_id + "\")} \n onMouseEnter={this.onClickHandle(\"" + tag_id + "\")} \n"
-
-    # className={selection == \"" + formatted_tag_id + "\" ? \"selected\" : \"\"}"
+    injection = "\n onClick={this.onClickHandle} \n onMouseEnter={this.onClickHandle} \n className={\"" + class_name + "\" + (selection === \"" + tag_id + "\" ? \" selected\" : \"\")}"
 
     clean_line = re.sub(r'id=\"(.+?)\"', "id=\"" + tag_id + "\"" + injection, tag)
 
-    # clean_line = re.sub(r'class=\"(.+?)\"',"className={""}")
+    clean_line = re.sub(r'class=\"(.+?)\"',"", clean_line)
 
     return clean_line
 

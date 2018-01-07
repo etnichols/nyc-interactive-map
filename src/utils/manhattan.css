@@ -1,69 +1,73 @@
-      .cls-1 {
-        opacity: 0.9;
-      }
-
-      .cls-2, .cls-4 {
+      .cls-1, .cls-3 {
         fill: #f15a24;
       }
 
-      .cls-2, .cls-45 {
+      .cls-1 {
         opacity: 0.7;
       }
 
-      .cls-3 {
+      .cls-2 {
         fill: #50f044;
       }
 
-      .cls-10, .cls-13, .cls-14, .cls-15, .cls-17, .cls-20, .cls-21, .cls-23, .cls-3, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-36, .cls-37, .cls-39, .cls-41, .cls-43, .cls-5, .cls-8 {
+      .cls-11, .cls-12, .cls-13, .cls-15, .cls-17, .cls-18, .cls-2, .cls-21, .cls-28, .cls-29, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35, .cls-37, .cls-40, .cls-42, .cls-53, .cls-6, .cls-8 {
         opacity: 0.8;
       }
 
-      .cls-6 {
+      .cls-4 {
         fill: #7fdfe2;
       }
 
-      .cls-39, .cls-7 {
+      .cls-37, .cls-5 {
         fill: #8938cf;
       }
 
-      .cls-8 {
+      .cls-6 {
         fill: lime;
       }
 
-      .cls-15, .cls-9 {
+      .cls-13, .cls-7 {
         fill: #ef4837;
       }
 
-      .cls-10, .cls-56 {
+      .cls-47, .cls-8 {
         fill: #b33cef;
       }
 
-      .cls-11 {
+      .cls-9 {
         fill: #47f040;
       }
 
-      .cls-12 {
+      .cls-10 {
         fill: #d2af41;
       }
 
-      .cls-13 {
+      .cls-11 {
         fill: #c9e252;
       }
 
-      .cls-14 {
+      .cls-12 {
         fill: #ea952c;
       }
 
-      .cls-16 {
+      .cls-14 {
         fill: #b540ef;
       }
 
-      .cls-17 {
+      .cls-15 {
         fill: #ef4d3a;
       }
 
-      .cls-18 {
+      .cls-16 {
         fill: #eea64c;
+      }
+
+      .cls-17 {
+        fill: #3247ef;
+      }
+
+      .cls-18 {
+        fill: #20a831;
       }
 
       .cls-19 {
@@ -71,137 +75,127 @@
       }
 
       .cls-20 {
-        fill: #3247ef;
-      }
-
-      .cls-21 {
-        fill: #20a831;
-      }
-
-      .cls-22 {
         fill: #3cb9ef;
       }
 
-      .cls-23 {
+      .cls-21 {
         fill: #b1842f;
       }
 
-      .cls-24 {
+      .cls-22 {
         fill: #e75d8d;
       }
 
-      .cls-25 {
+      .cls-23 {
         fill: #56a144;
       }
 
-      .cls-26 {
+      .cls-24 {
         fill: #d8f14c;
       }
 
-      .cls-27 {
+      .cls-25 {
         fill: #37b9ef;
       }
 
-      .cls-28 {
+      .cls-26 {
         fill: #463ebd;
       }
 
-      .cls-29 {
+      .cls-27 {
         fill: #ef5739;
       }
 
-      .cls-30 {
+      .cls-28 {
         fill: #53e054;
       }
 
-      .cls-31 {
+      .cls-29 {
         fill: #676ed3;
       }
 
-      .cls-32 {
+      .cls-30 {
         fill: #d7f14a;
       }
 
-      .cls-33 {
+      .cls-31 {
         fill: #e04f55;
       }
 
-      .cls-34 {
+      .cls-32 {
         fill: #52f046;
       }
 
-      .cls-35 {
+      .cls-33 {
         fill: #b43def;
       }
 
-      .cls-36 {
+      .cls-34 {
         fill: #5db933;
       }
 
-      .cls-37 {
+      .cls-35 {
         fill: #3ab1d0;
       }
 
-      .cls-38 {
+      .cls-36 {
         fill: #ad58d9;
       }
 
-      .cls-40 {
+      .cls-38 {
         fill: #ce372f;
       }
 
-      .cls-41, .cls-42 {
+      .cls-39, .cls-40 {
         fill: #eda243;
       }
 
-      .cls-43 {
-        fill: #57ee4d;
-      }
-
-      .cls-44 {
-        fill: #48ca57;
-      }
-
-      .cls-45, .cls-46 {
+      .cls-41 {
         fill: #3c4fec;
-      }
-
-      .cls-46 {
         opacity: 0.6;
       }
 
-      .cls-47 {
-        fill: #ec5c4a;
+      .cls-42 {
+        fill: #57ee4d;
       }
 
-      .cls-48 {
-        fill: #dcef51;
+      .cls-43 {
+        fill: #48ca57;
       }
 
-      .cls-49 {
-        fill: #57ef4e;
-      }
-
-      .cls-50 {
+      .cls-44 {
         fill: #d04132;
       }
 
-      .cls-51 {
-        fill: #4ac957;
-      }
-
-      .cls-52 {
-        fill: #c9e24f;
-      }
-
-      .cls-53 {
+      .cls-45 {
         fill: #fdc937;
       }
 
-      .cls-54 {
+      .cls-46 {
         fill: #30adcf;
       }
 
-      .cls-55 {
+      .cls-48 {
+        fill: #c9e24f;
+      }
+
+      .cls-49 {
+        fill: #4ac957;
+      }
+
+      .cls-50 {
+        fill: #57ef4e;
+      }
+
+      .cls-51 {
+        fill: #dcef51;
+      }
+
+      .cls-52 {
         fill: #c9e251;
+        opacity: 0.9;
+      }
+
+      .cls-53 {
+        fill: #ec5c4a;
       }

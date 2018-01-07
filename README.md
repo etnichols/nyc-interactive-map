@@ -26,7 +26,7 @@ Made with React, Bootstrap and some other goodies.
 - CSS Styling and animation transitions
 - Highlighting/OnClick styles for Manhattan map
 - InfoBox needs to scroll and stay on mobile screen
-- Stroke CSS on selected path element - update python script
+- Stroke CSS on selected path element - update python script 
 
 ---
 

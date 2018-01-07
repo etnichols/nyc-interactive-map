@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './HamburgerIcon.css'
+import '../css/HamburgerIcon.css'
 
 class HamburgerIcon extends Component {
   render(){

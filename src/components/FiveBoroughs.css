@@ -1,0 +1,80 @@
+.boroughs-svg-container {
+  margin-top: 10px;
+  max-width: 400px;
+}
+
+.borough-selected {
+    stroke: #fff;
+    stroke-width: 3px;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: pulsate 2s ease-out;
+    -moz-animation-iteration-count: infinite;
+    -ms-animation: pulsate 2s ease-out;
+    -ms-animation-iteration-count: infinite;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+}
+
+.CLS-1 {
+  fill: #9ec7f3;
+}
+
+.CLS-2 {
+  fill: #f7d3aa;
+}
+
+.CLS-3 {
+  fill: #a65628;
+}
+
+.CLS-4 {
+  fill: #ff7f00;
+}
+
+.CLS-5 {
+  fill: #e41a1c;
+}
+
+.CLS-6 {
+  fill: #984ea3;
+}
+
+.CLS-7 {
+  fill: #ff3;
+}
+
+.CLS-8 {
+  fill: #4daf4a;
+}
+
+.active-place {
+  stroke: #f26101;
+  stroke-width: 3;
+  fill: #f26101;
+
+}
+
+@-webkit-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 2; }
+  50%   { stroke-opacity:1.0; stroke-width: 4; }
+  100%  { stroke-opacity:0.4; stroke-width: 2; }
+}
+
+@-moz-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 2; }
+  50%   { stroke-opacity:1.0; stroke-width: 4; }
+  100%  { stroke-opacity:0.4; stroke-width: 2; }
+}
+
+@-ms-keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 2; }
+  50%   { stroke-opacity:1.0; stroke-width: 4; }
+  100%  { stroke-opacity:0.4; stroke-width: 2; }
+}
+
+@keyframes pulsate {
+  0%    { stroke-opacity:0.4; stroke-width: 2; }
+  50%   { stroke-opacity:1.0; stroke-width: 4; }
+  100%  { stroke-opacity:0.4; stroke-width: 2; }
+}

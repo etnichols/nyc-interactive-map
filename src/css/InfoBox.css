@@ -1,6 +1,7 @@
 .borough-info-box {
+  top: 70px;
   z-index: 3;
-  position: absolute;
+  position: fixed;
   margin: 10px;
   max-width: 600px;
   min-width: 120px;
@@ -10,7 +11,7 @@
   background-color: #fff;
   border: 1px solid #000;
   box-shadow: 1px 1px 1px 1px #ccc;
-  display: inline-block;
+  display: block;
 }
 
 .borough-info-box-title {
