@@ -1,6 +1,9 @@
 .boroughs-svg-container {
-  margin-top: 10px;
   max-width: 400px;
+}
+
+.content {
+  display: block;
 }
 
 .borough-selected {

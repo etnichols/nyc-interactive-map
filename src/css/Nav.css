@@ -2,7 +2,7 @@ nav {
     background-color: #f26101;
     padding-top: 5px;
     width: 100vw;
-    position: fixed;
+    z-index: 3;
 }
 
 @media (min-width: 600px){
@@ -72,7 +72,6 @@ nav ul li a {
   nav ul {
     max-height: 0px;
     display: block;
-    margin-bottom: 10px;
   }
 
   .showing {
