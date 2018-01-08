@@ -217,6 +217,12 @@
   fill: #ec5c4a;
 }
 
+@media screen and (max-width: 580px){
+  .manhattan-svg-container {
+    width: 90%;
+  }
+}
+
 @-webkit-keyframes pulsate {
   0%    { stroke-opacity:0.4; stroke-width: 2; }
   50%   { stroke-opacity:1.0; stroke-width: 4; }

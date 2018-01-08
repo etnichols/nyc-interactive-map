@@ -66,7 +66,7 @@ class FiveBoroughs extends Component {
           {selection.length > 0 &&
             <InfoBox selection={selection}/>
           }
-    <div className="content">
+    <div className="text-center">
     <svg className="boroughs-svg-container" id="NYC" ref={node => this.node = node} viewBox="0 0 1041.3 1028.4">
     <g id="the_map">
       <title>five_boroughs</title>
