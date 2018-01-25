@@ -10,7 +10,7 @@
   border: 1px solid #000;
   box-shadow: 1px 1px 1px 1px #ccc;
   overflow-x: visible;
-  position: absolute;
+  position: fixed;
 }
 
 .borough-info-box-title {

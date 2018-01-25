@@ -8,6 +8,7 @@
 }
 
 .borough-selected {
+    z-index: 1000;
     stroke: #fff;
     stroke-width: 3px;
     -webkit-animation: pulsate 2s ease-out;
